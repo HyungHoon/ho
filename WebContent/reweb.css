@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+ #wrap{
+    width:100%;
+    
+} 
+
+button:hover{
+    opacity: 0.5;
+}
+
+.logintop{
+     text-align: center; 
+    
+}
+.logintop img{
+    margin-top:18px; 
+    width:40%;
+    border-radius: 20%;
+}
+.login{
+    position: relative;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    text-align: center;
+    
+}
+
+.login input{
+    padding-left:10px;
+    margin:auto;
+    font-size:20px;
+    display:block;
+    width:20%;
+    height:39px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+.login button{
+    margin-top:40px;
+    width:150px;
+
+    color:white;
+    background-color: black;
+    border:none;
+    text-decoration: none;
+    font-size: 23px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    border-radius:20%;
+}
+
+/* .login .img{
+ position: absolute;
+ width:100px;
+ height:100px;
+ top:10px;
+ margin-left:310px;
+} */
+
+.floot{
+    
+    background-color: black;
+    padding:130px;
+    margin-top:60px;
+    color:white;
+    text-align: center;
+}
+
+.floot>i{
+    
+    font-size:23px;
+    padding-left:10px;
+    
+}
+

@@ -1,0 +1,63 @@
+<%@page language="java" contentType="text/html; charset=UTF-8"
+   pageEncoding="UTF-8"%>
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>MY PAGE</title>
+<script src="http://code.jquery.com/jquery-1.7.js"></script>
+<link rel="stylesheet" type="text/css" href="reweb.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script>
+
+$()
+
+
+</script>
+</head>
+<body>
+    	  	<%String msg = (String)request.getAttribute("msg");
+
+if(msg!=null){
+%>
+<label><b><%=msg%></b></label>
+<%} %>
+
+    
+    <div id="wrap">
+        
+   		 <form action="/LoginAction" method=post>
+        <div class='logintop'>
+            <img src="img\login.jpg">    
+        </div>
+        
+        <div class='login'>
+            <h1>ID</h1>
+            <input type='text' name="id" placeholder="your id" required>
+            <h1>PASSWORD</h1>
+            <input type='password' name="pwd" placeholder="your pwd" required>
+            <button type='submit'>LOGIN</button>
+<!-- 
+               <div class="img">
+                   <img src="C:\Users\504CLASS 17\eclipse-workspace\haha\WebContent\img\sw.png">
+               </div> -->
+        </div>    
+        
+
+        <div class='floot'>
+            <p>Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an interest of lorem ipsum and mauris neque quam blog. I want to share my world with you. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+            <i class="fa fa-angellist"></i>
+            <i class="fa fa-facebook-square"></i>
+            <i class="fa fa-google-plus-official"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-wechat"></i>
+            <i class="fa fa-youtube-square"></i>
+            <p>@bitcamp 2017 - 2018</p>
+            
+        </div>
+    
+</form>
+</div>
+</body>
+</html>
